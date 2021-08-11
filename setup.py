@@ -2,7 +2,7 @@ from setuptools import setup
 
 
 setup(name='rsi_calculator',
-version='0.1.0',
+version='0.1.1',
 description="""A library to calculating RSI.""",
 long_description="""
 # RSI Calculator
@@ -41,7 +41,7 @@ install_requires=[
   "numpy==1.21.1"
 ],
 entry_points = {
-    'console_scripts': ['rsi=rsi_calculator.rsi_calculator:rsi'],
+    'console_scripts': ['rsi=rsi_calculator.rsi_calculator:arguments'],
 },
 python_requires=">= 3",
 zip_safe=False)

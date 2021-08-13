@@ -4,7 +4,7 @@ import argparse
 
 def rsi(prices = None, periods = 14):
     
-    if periods >= len(prices):
+    if periods <= len(prices):
         prices = prices[-periods:]
         n = len(prices)
         prices = np.array(prices)

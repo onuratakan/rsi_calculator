@@ -2,7 +2,7 @@ from setuptools import setup
 
 
 setup(name='rsi_calculator',
-version='0.1.1',
+version='0.1.2',
 description="""A library to calculating RSI.""",
 long_description="""
 # RSI Calculator
